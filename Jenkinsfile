@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('maven compiling') {
       steps {
-        sh 'echo "HOLA"'
+        sh 'mvn -v'
       }
     }
   }
